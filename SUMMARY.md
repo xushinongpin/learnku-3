@@ -61,7 +61,7 @@
   * [第八章. 权限控制](di-ba-7ae0-quan-xian-kong-zhi.md)
     * [8.1. Larabbs 角色权限](di-ba-7ae0-quan-xian-kong-zhi/81-larabbs-jiao-se-quan-xian.md)
     * [8.2. 权限列表](di-ba-7ae0-quan-xian-kong-zhi/82-quan-xian-lie-biao.md)
-    * 8.3. 用户角色
+    * [8.3. 用户角色](di-ba-7ae0-quan-xian-kong-zhi/83-yong-hu-jiao-se.md)
     * 8.4. 小结
   * [第九章. 其他功能](di-jiu-7ae0-qi-ta-gong-neng.md)
     * 9.1. 资源推荐接口
