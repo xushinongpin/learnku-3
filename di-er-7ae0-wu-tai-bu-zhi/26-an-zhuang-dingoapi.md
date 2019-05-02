@@ -64,9 +64,7 @@ _composer.json_
 先将 dingo 的配置文件 publish 出来
 
 ```
-$ php artisan vendor
-:
-publish
+$ php artisan vendor:publish
 ```
 
 [![](https://iocaffcdn.phphub.org/uploads/images/201801/23/3995/ldSqFfIWco.png "file")](https://iocaffcdn.phphub.org/uploads/images/201801/23/3995/ldSqFfIWco.png)
@@ -78,21 +76,7 @@ publish
   上一节我们已经讨论了 API 版本的重要性，推荐的做法是使用 Accept 头来指定我们需要访问的 API 版本。`API_STANDARDS_TREE`和`API_SUBTYPE`这两个配置就和版本控制有关
 
   ```
-  Accept
-  :
-   application
-  /
-  <
-  API_STANDARDS_TREE
-  >
-  .
-  <
-  API_SUBTYPE
-  >
-  .
-  v1
-  +
-  json
+  Accept: application/<API_STANDARDS_TREE>.<API_SUBTYPE>.v1+json
   ```
 
   API\_STANDARDS\_TREE 有是三个值可选
@@ -107,68 +91,36 @@ publish
   对于我们的项目，暂时可以选择`prs`。
 
   ```
-  API_STANDARDS_TREE
-  =
-  prs
+  API_STANDARDS_TREE=prs
   ```
 
   API\_SUBTYPE 一般情况下是我们项目的简称，我们的项目叫`larabbs`
 
   ```
-  API_SUBTYPE
-  =
-  larabbs
+  API_SUBTYPE=larabbs
   ```
 
   所以我们可以通过如下方式来访问不同版本的 API
 
   ```
   访问 v1 版本
-  Accept
-  :
-   application
-  /
-  prs
-  .
-  larabbs
-  .
-  v1
-  +
-  json
+  Accept: application/prs.larabbs.v1+json
   访问 v2 版本
-  Accept
-  :
-   application
-  /
-  prs
-  .
-  larabbs
-  .
-  v2
-  +
-  json
+  Accept: application/prs.larabbs.v2+json
   ```
 
 * API\_PREFIX 和 API\_DOMAIN  
   对于一个项目，通过前缀或者子域名的方式来区分开 API 与 Web 等页面访问地址是十分有必要的。假如正式上线的项目地址为`www.larabbs.com`，我们可以为 API 添加一个前缀
 
   ```
-  API_PREFIX
-  =
-  api
+  API_PREFIX=api
   ```
 
   通过`www.larabbs.com/api`来访问 API。  
   或者有可能单独配置一个子域名`api.larabbs.com`
 
   ```
-  API_DOMAIN
-  =
-  api
-  .
-  larabbs
-  .
-  com
+  API_DOMAIN=api.larabbs.com
   ```
 
   通过 api.larabbs.com 来访问 API。
@@ -176,49 +128,38 @@ publish
   特别要注意的是：**前缀和子域名，两者有且只有一个**。本教程选择`API_PREFIX`的方式。
 
 * API\_VERSION
- 
-  默认的 API 版本，当我们没有传
-  `Accept`
+
+  默认的 API 版本，当我们没有传  
+  `Accept`  
   头的时候，默认访问该版本的 API。一般情况下配置 v1 即可。
+
 * API\_STRICT
- 
-  是否开启严格模式，如果开启，则必须使用
-  `Accept`
-  头才可以访问 API，也就是说直接通过浏览器，访问某个 GET 调用的接口，如
-  `https://api.larabbs.com/users`
-  ，将会报错。必须使用 Postman 之类的调试工具，设置
-  `Accept`
+
+  是否开启严格模式，如果开启，则必须使用  
+  `Accept`  
+  头才可以访问 API，也就是说直接通过浏览器，访问某个 GET 调用的接口，如  
+  `https://api.larabbs.com/users`  
+  ，将会报错。必须使用 Postman 之类的调试工具，设置  
+  `Accept`  
   后才可访问。可以根据需求开启，默认情况下为 false。
+
 * API\_DEBUG
- 
+
   测试环境，打开 debug，方便我们看到错误信息，定位错误。
- 
+
   最后我们的配置如下
- 
+
   .env
+
   ```
   .
   .
   .
-  API_STANDARDS_TREE
-  =
-  prs
-
-  API_SUBTYPE
-  =
-  larabbs
-
-  API_PREFIX
-  =
-  api
-
-  API_VERSION
-  =
-  v1
-
-  API_DEBUG
-  =
-  true
+  API_STANDARDS_TREE=prs
+  API_SUBTYPE=larabbs
+  API_PREFIX=api
+  API_VERSION=v1
+  API_DEBUG=true
   ```
 
 注意`.env`文件是不会提交到版本库中的，所以可以将以下代码复制到`.env.example`中，提交到版本库，方便其他环境部署。  
