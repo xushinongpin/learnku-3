@@ -20,7 +20,7 @@
     * [2.4. LaraBBS 数据模型讲解](di-er-7ae0-wu-tai-bu-zhi/24-larabbs-shu-ju-mo-xing-jiang-jie.md)
     * [2.5. Github 的 Restful HTTP API 设计分解](di-er-7ae0-wu-tai-bu-zhi/25-github-de-restful-http-api-she-ji-fen-jie.md)
     * [2.6. 安装 DingoAPI](di-er-7ae0-wu-tai-bu-zhi/26-an-zhuang-dingoapi.md)
-    * 2.7. 安装 PostMan
+    * [2.7. 安装 PostMan](di-er-7ae0-wu-tai-bu-zhi/27-an-zhuang-postman.md)
     * 2.8. 小结
   * 第三章. 手机注册
     * 3.1. 手机注册流程讲解
