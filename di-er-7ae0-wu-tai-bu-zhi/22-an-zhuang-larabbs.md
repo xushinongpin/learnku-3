@@ -16,10 +16,7 @@
 在虚拟机中进入 Code 文件夹：
 
 ```
-$ cd 
-~
-/
-Code
+$ cd ~/Code
 ```
 
 > 注意：本书中因为虚拟机的存在，我们会有两个运行命令行的环境，一个是主机，另一个是 Homestead 虚拟机。我们会在命令的前面使用『命令行提示符』来区分主机和 Homestead。请记住以 &gt; 开头的命令是运行在主机里，$ 开头的命令是运行在 Homestead 虚拟机里。详见 写作约定 - 命令行提示符。
@@ -29,13 +26,7 @@ Code
 在创建项目之前，我们先在虚拟机中运行以下命令来实现 Composer 安装加速 ：
 
 ```
-$ composer config 
--
-g repo
-.
-packagist composer https
-:
-//packagist.phpcomposer.com
+$ composer config -g repo.packagist composer https://packagist.phpcomposer.com
 ```
 
 ## 安装 LaraBBS 应用
@@ -47,32 +38,11 @@ packagist composer https
 假设你已经准备好了自己的 larabbs 的项目，注意请把下面的`<username>`替换为你的用户名。
 
 ```
-$ cd 
-~
-/
-Code
-$ git 
-clone
- git@github
-.
-com
-:
-<
-username
->
-/
-larabbs
-.
-git
+$ cd ~/Code
+$ git clone git@github.com:<username>/larabbs.git
 $ cd larabbs
 $ composer install
-$ cp 
-.
-env
-.
-example 
-.
-env
+$ cp .env.example .env
 ```
 
 [![](https://iocaffcdn.phphub.org/uploads/images/201712/17/6351/h5KhYUgM5d.png "file")](https://iocaffcdn.phphub.org/uploads/images/201712/17/6351/h5KhYUgM5d.png)  
@@ -88,31 +58,13 @@ env
 Mac 下打开 Hosts 文件：
 
 ```
->
- subl 
-/
-etc
-/
-hosts
+> subl /etc/hosts
 ```
 
 Windows 下打开 Hosts 文件：
 
 ```
->
- subl 
-C
-:
-/
-Windows
-/
-System32
-/
-Drivers
-/
-etc
-/
-hosts
+> subl C:/Windows/System32/Drivers/etc/hosts
 ```
 
 > Windows 下，如果你没有集成 subl 命令的话， 请使用编辑器直接打开文件，文件路径在 C:\Windows\System32\Drivers\etc\hosts 。
@@ -120,12 +72,7 @@ hosts
 文件成功打开后，在 hosts 文件最后面新增下面一行以完成设置：
 
 ```
-192.168
-.10
-.10
-   larabbs
-.
-test
+192.168.10.10   larabbs.test
 ```
 
 因为最近`.dev.app`域名在谷歌浏览器中被强制转跳到 https，所以我们使用 .test。
@@ -135,153 +82,47 @@ test
 如果你安装了 Sublime Text，可通过运行下面命令打开 Homestead.yaml 文件：
 
 ```
->
- subl 
-~
-/
-Homestead
-/
-Homestead
-.
-yaml
+> subl ~/Homestead/Homestead.yaml
 ```
 
 在 Homestead.yaml 文件中新增 larabbs 应用的 sites 和 databases 的相关设置：
 
 ```
---
--
+---
+ip: "192.168.10.10"
+memory: 2048
+cpus: 1
+provider: virtualbox
 
-ip
-:
-"192.168.10.10"
+authorize: ~/.ssh/id_rsa.pub
 
-memory
-:
-2048
+keys:
+    - ~/.ssh/id_rsa
 
-cpus
-:
-1
+folders:
+    - map: ~/Code
+      to: /home/vagrant/Code
 
-provider
-:
- virtualbox
+sites:
+    - map: homestead.app
+      to: /home/vagrant/Code/Laravel/public
+    - map: larabbs.test # <--- 这里
+      to: /home/vagrant/Code/larabbs/public # <--- 这里
 
-authorize
-:
-~
-/
-.
-ssh
-/
-id_rsa
-.
-pub
+databases:
+    - homestead
+    - larabbs # <--- 这里
 
-keys
-:
--
-~
-/
-.
-ssh
-/
-id_rsa
-
-folders
-:
--
- map
-:
-~
-/
-Code
-      to
-:
-/
-home
-/
-vagrant
-/
-Code
-
-sites
-:
--
- map
-:
- homestead
-.
-app
-      to
-:
-/
-home
-/
-vagrant
-/
-Code
-/
-Laravel
-/
-public
--
- map
-:
- larabbs
-.
-test 
-# 
-<
---- 这里
-
-      to
-:
-/
-home
-/
-vagrant
-/
-Code
-/
-larabbs
-/
-public
-# 
-<
---- 这里
-
-
-databases
-:
--
- homestead
-    
--
- larabbs 
-# 
-<
---- 这里
-
-
-variables
-:
--
- key
-:
-APP_ENV
-
-      value
-:
- local
-
+variables:
+    - key: APP_ENV
+      value: local
 
 # blackfire:
 #     - id: foo
 #       token: bar
 #       client-id: foo
 #       client-token: bar
+
 # ports:
 #     - send: 93000
 #       to: 9300
@@ -297,17 +138,7 @@ APP_ENV
 在我们每次对 Homestead.yaml 文件进行了更改之后，都需要运行下面命令来使其更改生效：
 
 ```
->
- cd 
-~
-/
-Homestead 
-&
-&
- vagrant provision 
-&
-&
- vagrant reload
+> cd ~/Homestead && vagrant provision && vagrant reload
 ```
 
 * `vagrant provision`
@@ -324,9 +155,7 @@ Homestead
 .env
 
 ```
-DB_DATABASE
-=
-larabbs
+DB_DATABASE=larabbs
 ```
 
 ## 初始化命令
@@ -334,18 +163,9 @@ larabbs
 进入 homestead
 
 ```
-$ cd 
-~
-/
-Code
-/
-larabbs
-$ php artisan key
-:
-generate
-$ php artisan migrate 
---
-seed
+$ cd ~/Code/larabbs
+$ php artisan key:generate
+$ php artisan migrate --seed
 ```
 
 [![](https://iocaffcdn.phphub.org/uploads/images/201712/17/6351/XhcmcBmdqm.png "file")](https://iocaffcdn.phphub.org/uploads/images/201712/17/6351/XhcmcBmdqm.png)
