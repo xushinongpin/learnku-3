@@ -64,7 +64,7 @@
     * [8.3. 用户角色](di-ba-7ae0-quan-xian-kong-zhi/83-yong-hu-jiao-se.md)
     * [8.4. 小结](di-ba-7ae0-quan-xian-kong-zhi/84-xiao-jie.md)
   * [第九章. 其他功能](di-jiu-7ae0-qi-ta-gong-neng.md)
-    * 9.1. 资源推荐接口
+    * [9.1. 资源推荐接口](di-jiu-7ae0-qi-ta-gong-neng/91-zi-yuan-tui-jian-jie-kou.md)
     * 9.2. 活跃用户接口
     * 9.3. 本地化
     * 9.4. 消息推送
