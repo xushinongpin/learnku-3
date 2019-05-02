@@ -59,8 +59,8 @@
     * [7.6. 标记通知为已读](di-qi-7ae0-hui-fu-shu-ju/76-biao-ji-tong-zhi-wei-yi-du.md)
     * [7.7. 小结](di-qi-7ae0-hui-fu-shu-ju/77-xiao-jie.md)
   * [第八章. 权限控制](di-ba-7ae0-quan-xian-kong-zhi.md)
-    * 8.1. Larabbs 角色权限
-    * 8.2. 权限列表
+    * [8.1. Larabbs 角色权限](di-ba-7ae0-quan-xian-kong-zhi/81-larabbs-jiao-se-quan-xian.md)
+    * [8.2. 权限列表](di-ba-7ae0-quan-xian-kong-zhi/82-quan-xian-lie-biao.md)
     * 8.3. 用户角色
     * 8.4. 小结
   * [第九章. 其他功能](di-jiu-7ae0-qi-ta-gong-neng.md)
