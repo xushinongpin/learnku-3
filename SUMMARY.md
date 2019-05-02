@@ -10,7 +10,7 @@
     * [1.4. 如何正确阅读本书？ 免费](di-yi-7ae0-ji-chu-xin-xi/14-ru-he-zheng-que-yue-du-ben-shu-ff1f-mian-fei.md)
     * [1.5. 写作约定 免费](di-yi-7ae0-ji-chu-xin-xi/15-xie-zuo-yue-ding-mian-fei.md)
     * [1.6. 发行说明 免费](di-yi-7ae0-ji-chu-xin-xi/16-fa-xing-shuo-ming-mian-fei.md)
-    * 1.7. 本书源码 免费
+    * [1.7. 本书源码 免费](di-yi-7ae0-ji-chu-xin-xi/17-ben-shu-yuan-ma-mian-fei.md)
     * 1.8. 遇到问题怎么办？ 免费
     * 1.9. 常见问题 免费
   * 第二章. 舞台布置
