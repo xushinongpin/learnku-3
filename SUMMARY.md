@@ -51,7 +51,7 @@
     * [6.6. 话题详情](di-liu-7ae0-tie-zi-shu-ju/66-hua-ti-xiang-qing.md)
     * [6.7. 小结](di-liu-7ae0-tie-zi-shu-ju/67-xiao-jie.md)
   * [第七章. 回复数据](di-qi-7ae0-hui-fu-shu-ju.md)
-    * 7.1. 添加回复
+    * [7.1. 添加回复](di-qi-7ae0-hui-fu-shu-ju/71-tian-jia-hui-fu.md)
     * 7.2. 删除回复
     * 7.3. 回复列表
     * 7.4. 消息通知列表
