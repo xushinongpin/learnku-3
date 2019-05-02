@@ -178,23 +178,13 @@ https://api.larabbs.com/
 
 ```
 {
-"message"
-:
-"422 Unprocessable Entity"
-,
-"errors"
-:
-{
-"name"
-:
-[
-"姓名 必须为字符串。"
-]
-}
-,
-"status_code"
-:
-422
+    "message": "422 Unprocessable Entity",
+    "errors": {
+        "name": [
+            "姓名 必须为字符串。"
+        ]
+    },
+    "status_code": 422
 }
 ```
 
