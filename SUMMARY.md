@@ -82,9 +82,9 @@
     * [11.4. 处理第三方登录](di-shi-yi-7ae0-oauth-ren-zheng-passport/114-chu-li-di-san-fang-deng-lu.md)
     * [11.5. 小结](di-shi-yi-7ae0-oauth-ren-zheng-passport/115-xiao-jie.md)
   * [第十二章. 附录](di-shi-er-7ae0-fu-lu.md)
-    * 12.1. 下一步的学习建议
-    * 12.2. 推荐阅读
-    * 12.3. 作品分享和学习感悟
+    * [12.1. 下一步的学习建议](di-shi-er-7ae0-fu-lu/121-xia-yi-bu-de-xue-xi-jian-yi.md)
+    * [12.2. 推荐阅读](di-shi-er-7ae0-fu-lu/122-tui-jian-yue-du.md)
+    * [12.3. 作品分享和学习感悟](di-shi-er-7ae0-fu-lu/123-zuo-pin-fen-xiang-he-xue-xi-gan-wu.md)
 
 ## Methods
 
