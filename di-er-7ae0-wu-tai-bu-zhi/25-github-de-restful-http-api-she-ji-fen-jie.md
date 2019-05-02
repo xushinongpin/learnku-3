@@ -49,6 +49,7 @@ https://www.larabbs.com/api
   https://api.larabbs.com/v2
   ```
 * 使用 HTTP 请求头的 Accept 字段进行区分
+
   ```
       https://api.larabbs.com/
       Accept: application/prs.larabbs.v1+json
@@ -158,32 +159,9 @@ HTTP 提供了丰富的状态码供我们使用，正确的使用状态码可以
 考虑到响应数据的可读性及通用性，默认使用 JSON 作为数据响应格式。如果客户端有需求使用其他的响应格式，例如 XML，需要在 Accept 头中指定需要的格式。
 
 ```
-https
-:
-//api.larabbs.com/
-
-    Accept
-:
- application
-/
-prs
-.
-larabbs
-.
-v1
-+
-json
-    Accept
-:
- application
-/
-prs
-.
-larabbs
-.
-v1
-+
-xml
+https://api.larabbs.com/
+    Accept: application/prs.larabbs.v1+json
+    Accept: application/prs.larabbs.v1+xml
 ```
 
 对于错误数据，默认使用如下结构：
