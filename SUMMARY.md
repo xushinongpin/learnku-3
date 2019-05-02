@@ -41,7 +41,7 @@
   * [第五章. 用户数据](di-wu-7ae0-yong-hu-shu-ju.md)
     * [5.1. 获取个人信息](di-wu-7ae0-yong-hu-shu-ju/51-huo-qu-ge-ren-xin-xi.md)
     * [5.2. 编辑个人资料](di-wu-7ae0-yong-hu-shu-ju/52-bian-ji-ge-ren-zi-liao.md)
-    * 5.3. 小结
+    * [5.3. 小结](di-wu-7ae0-yong-hu-shu-ju/53-xiao-jie.md)
   * [第六章. 帖子数据](di-liu-7ae0-tie-zi-shu-ju.md)
     * 6.1. 分类列表
     * 6.2. 发布话题
