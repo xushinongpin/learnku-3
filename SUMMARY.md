@@ -24,7 +24,7 @@
     * [2.8. 小结](di-er-7ae0-wu-tai-bu-zhi/28-xiao-jie.md)
   * 第三章. 手机注册
     * [3.1. 手机注册流程讲解](31-shou-ji-zhu-ce-liu-cheng-jiang-jie.md)
-    * 3.2. 短信提供商
+    * [3.2. 短信提供商](32-duan-xin-ti-gong-shang.md)
     * 3.3. 手机注册验证码
     * 3.4. 构建用户注册接口
     * 3.5. 节流处理防止攻击
