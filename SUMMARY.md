@@ -7,7 +7,7 @@
     * [1.1. 序言 上次阅读  免费](di-yi-7ae0-ji-chu-xin-xi/11-xu-yan-shang-ci-yue-du-mian-fei.md)
     * [1.2. 关于作者 免费](di-yi-7ae0-ji-chu-xin-xi/12-guan-yu-zuo-zhe-mian-fei.md)
     * [1.3. Laravel 与 PHP 免费](di-yi-7ae0-ji-chu-xin-xi/13-laravel-yu-php-mian-fei.md)
-    * 1.4. 如何正确阅读本书？ 免费
+    * [1.4. 如何正确阅读本书？ 免费](di-yi-7ae0-ji-chu-xin-xi/14-ru-he-zheng-que-yue-du-ben-shu-ff1f-mian-fei.md)
     * 1.5. 写作约定 免费
     * 1.6. 发行说明 免费
     * 1.7. 本书源码 免费
