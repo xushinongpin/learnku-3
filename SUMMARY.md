@@ -48,7 +48,7 @@
     * [6.3. 修改话题](di-liu-7ae0-tie-zi-shu-ju/63-xiu-gai-hua-ti.md)
     * [6.4. 删除话题](di-liu-7ae0-tie-zi-shu-ju/64-shan-chu-hua-ti.md)
     * [6.5. 话题列表](di-liu-7ae0-tie-zi-shu-ju/65-hua-ti-lie-biao.md)
-    * 6.6. 话题详情
+    * [6.6. 话题详情](di-liu-7ae0-tie-zi-shu-ju/66-hua-ti-xiang-qing.md)
     * 6.7. 小结
   * [第七章. 回复数据](di-qi-7ae0-hui-fu-shu-ju.md)
     * 7.1. 添加回复
