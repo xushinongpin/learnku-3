@@ -31,7 +31,7 @@
     * [3.6. 图片验证码](36-tu-pian-yan-zheng-ma.md)
     * [3.7. 小结](37-xiao-jie.md)
   * [第四章. 第三方登录](di-si-7ae0-di-san-fang-deng-lu.md)
-    * 4.1. 微信登录流程讲解
+    * [4.1. 微信登录流程讲解](di-si-7ae0-di-san-fang-deng-lu/41-wei-xin-deng-lu-liu-cheng-jiang-jie.md)
     * 4.2. 微信开发者账号申请
     * 4.3. 微信登录
     * 4.4. 微信登录功能开发
