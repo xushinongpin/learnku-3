@@ -167,36 +167,11 @@ https://api.larabbs.com/
 对于错误数据，默认使用如下结构：
 
 ```
-'message'
-=
->
-':message'
-,
-// 错误的具体描述
-'errors'
-=
->
-':errors'
-,
-// 参数的具体错误描述，422 等状态提供
-'code'
-=
->
-':code'
-,
-// 自定义的异常码
-'status_code'
-=
->
-':status_code'
-,
-// http状态码
-'debug'
-=
->
-':debug'
-,
-// debug 信息，非生产环境提供
+'message' => ':message',          // 错误的具体描述
+'errors' => ':errors',            // 参数的具体错误描述，422 等状态提供
+'code' => ':code',                // 自定义的异常码
+'status_code' => ':status_code',  // http状态码
+'debug' => ':debug',              // debug 信息，非生产环境提供
 ```
 
 例如
