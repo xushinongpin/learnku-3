@@ -43,7 +43,7 @@
     * [5.2. 编辑个人资料](di-wu-7ae0-yong-hu-shu-ju/52-bian-ji-ge-ren-zi-liao.md)
     * [5.3. 小结](di-wu-7ae0-yong-hu-shu-ju/53-xiao-jie.md)
   * [第六章. 帖子数据](di-liu-7ae0-tie-zi-shu-ju.md)
-    * 6.1. 分类列表
+    * [6.1. 分类列表](di-liu-7ae0-tie-zi-shu-ju/61-fen-lei-lie-biao.md)
     * 6.2. 发布话题
     * 6.3. 修改话题
     * 6.4. 删除话题
