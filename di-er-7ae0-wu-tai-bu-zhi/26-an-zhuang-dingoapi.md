@@ -170,16 +170,11 @@ $ php artisan vendor:publish
 .
 .
 # dingo config
-API_STANDARDS_TREE
-=
-API_SUBTYPE
-=
-API_PREFIX
-=
-API_VERSION
-=
-API_DEBUG
-=
+API_STANDARDS_TREE=
+API_SUBTYPE=
+API_PREFIX=
+API_VERSION=
+API_DEBUG=
 ```
 
 ## 3. 版本控制
