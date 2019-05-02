@@ -53,7 +53,7 @@
   * [第七章. 回复数据](di-qi-7ae0-hui-fu-shu-ju.md)
     * [7.1. 添加回复](di-qi-7ae0-hui-fu-shu-ju/71-tian-jia-hui-fu.md)
     * [7.2. 删除回复](di-qi-7ae0-hui-fu-shu-ju/72-shan-chu-hui-fu.md)
-    * 7.3. 回复列表
+    * [7.3. 回复列表](di-qi-7ae0-hui-fu-shu-ju/73-hui-fu-lie-biao.md)
     * 7.4. 消息通知列表
     * 7.5. 未读消息统计
     * 7.6. 标记通知为已读
