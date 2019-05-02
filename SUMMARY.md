@@ -57,7 +57,7 @@
     * [7.4. 消息通知列表](di-qi-7ae0-hui-fu-shu-ju/74-xiao-xi-tong-zhi-lie-biao.md)
     * [7.5. 未读消息统计](di-qi-7ae0-hui-fu-shu-ju/75-wei-du-xiao-xi-tong-ji.md)
     * [7.6. 标记通知为已读](di-qi-7ae0-hui-fu-shu-ju/76-biao-ji-tong-zhi-wei-yi-du.md)
-    * 7.7. 小结
+    * [7.7. 小结](di-qi-7ae0-hui-fu-shu-ju/77-xiao-jie.md)
   * [第八章. 权限控制](di-ba-7ae0-quan-xian-kong-zhi.md)
     * 8.1. Larabbs 角色权限
     * 8.2. 权限列表
