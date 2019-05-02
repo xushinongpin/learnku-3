@@ -29,7 +29,7 @@
     * [3.4. 构建用户注册接口](34-gou-jian-yong-hu-zhu-ce-jie-kou.md)
     * [3.5. 节流处理防止攻击](35-jie-liu-chu-li-fang-zhi-gong-ji.md)
     * [3.6. 图片验证码](36-tu-pian-yan-zheng-ma.md)
-    * 3.7. 小结
+    * [3.7. 小结](37-xiao-jie.md)
   * [第四章. 第三方登录](di-si-7ae0-di-san-fang-deng-lu.md)
     * 4.1. 微信登录流程讲解
     * 4.2. 微信开发者账号申请
