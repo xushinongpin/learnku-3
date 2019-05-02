@@ -66,7 +66,7 @@
   * [第九章. 其他功能](di-jiu-7ae0-qi-ta-gong-neng.md)
     * [9.1. 资源推荐接口](di-jiu-7ae0-qi-ta-gong-neng/91-zi-yuan-tui-jian-jie-kou.md)
     * [9.2. 活跃用户接口](di-jiu-7ae0-qi-ta-gong-neng/92-huo-yue-yong-hu-jie-kou.md)
-    * 9.3. 本地化
+    * [9.3. 本地化](di-jiu-7ae0-qi-ta-gong-neng/93-ben-di-hua.md)
     * 9.4. 消息推送
     * 9.5. 小结
   * [第十章. API 测试和文档](di-shi-7ae0-api-ce-shi-he-wen-dang.md)
