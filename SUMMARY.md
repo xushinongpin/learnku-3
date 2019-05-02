@@ -39,7 +39,7 @@
     * [4.6. artisan 获取 token](di-si-7ae0-di-san-fang-deng-lu/46-artisan-huo-qu-token.md)
     * [4.7. 小结](di-si-7ae0-di-san-fang-deng-lu/47-xiao-jie.md)
   * [第五章. 用户数据](di-wu-7ae0-yong-hu-shu-ju.md)
-    * 5.1. 获取个人信息
+    * [5.1. 获取个人信息](di-wu-7ae0-yong-hu-shu-ju/51-huo-qu-ge-ren-xin-xi.md)
     * 5.2. 编辑个人资料
     * 5.3. 小结
   * [第六章. 帖子数据](di-liu-7ae0-tie-zi-shu-ju.md)
