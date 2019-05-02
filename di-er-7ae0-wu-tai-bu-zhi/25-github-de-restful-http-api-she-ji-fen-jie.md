@@ -190,13 +190,8 @@ https://api.larabbs.com/
 
 ```
 {
-"message"
-:
-"您无权访问该订单"
-,
-"status_code"
-:
-403
+    "message": "您无权访问该订单",
+    "status_code": 403
 }
 ```
 
