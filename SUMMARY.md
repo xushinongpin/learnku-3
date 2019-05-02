@@ -36,8 +36,8 @@
     * [4.3. 微信登录](di-si-7ae0-di-san-fang-deng-lu/43-wei-xin-deng-lu.md)
     * [4.4. 微信登录功能开发](di-si-7ae0-di-san-fang-deng-lu/44-wei-xin-deng-lu-gong-neng-kai-fa.md)
     * [4.5. 登录 API 获取 JWT 令牌](di-si-7ae0-di-san-fang-deng-lu/45-deng-lu-api-huo-qu-jwt-ling-pai.md)
-    * 4.6. artisan 获取 token
-    * 4.7. 小结
+    * [4.6. artisan 获取 token](di-si-7ae0-di-san-fang-deng-lu/46-artisan-huo-qu-token.md)
+    * [4.7. 小结](di-si-7ae0-di-san-fang-deng-lu/47-xiao-jie.md)
   * [第五章. 用户数据](di-wu-7ae0-yong-hu-shu-ju.md)
     * 5.1. 获取个人信息
     * 5.2. 编辑个人资料
