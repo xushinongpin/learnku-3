@@ -15,7 +15,7 @@
     * [1.9. 常见问题 免费](di-yi-7ae0-ji-chu-xin-xi/19-chang-jian-wen-ti-mian-fei.md)
   * [第二章. 舞台布置](di-er-7ae0-wu-tai-bu-zhi.md)
     * [2.1. 开发环境](di-er-7ae0-wu-tai-bu-zhi/21-kai-fa-huan-jing.md)
-    * 2.2. 安装 LaraBBS
+    * [2.2. 安装 LaraBBS](di-er-7ae0-wu-tai-bu-zhi/22-an-zhuang-larabbs.md)
     * 2.3. LaraBBS 产品用例详解
     * 2.4. LaraBBS 数据模型讲解
     * 2.5. Github 的 Restful HTTP API 设计分解
