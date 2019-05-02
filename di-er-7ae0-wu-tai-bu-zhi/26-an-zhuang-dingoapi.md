@@ -182,14 +182,8 @@ API_DEBUG=
 最后将修改的文件加入到版本控制中。
 
 ```
-$ git add 
--
-A
-
-$ git commit 
--
-m 
-"add dingo"
+$ git add -A
+$ git commit -m "add dingo"
 ```
 
 
