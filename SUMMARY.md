@@ -78,7 +78,7 @@
   * [第十一章. Oauth 认证 -- Passport](di-shi-yi-7ae0-oauth-ren-zheng-passport.md)
     * [11.1. Passport 介绍](di-shi-yi-7ae0-oauth-ren-zheng-passport/111-passport-jie-shao.md)
     * [11.2. Passport 安装调试](di-shi-yi-7ae0-oauth-ren-zheng-passport/112-passport-an-zhuang-diao-shi.md)
-    * 11.3. 使用 Passport 认证
+    * [11.3. 使用 Passport 认证](di-shi-yi-7ae0-oauth-ren-zheng-passport/113-shi-yong-passport-ren-zheng.md)
     * 11.4. 处理第三方登录
     * 11.5. 小结
   * [第十二章. 附录](di-shi-er-7ae0-fu-lu.md)
