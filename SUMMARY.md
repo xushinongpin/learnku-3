@@ -55,7 +55,7 @@
     * [7.2. 删除回复](di-qi-7ae0-hui-fu-shu-ju/72-shan-chu-hui-fu.md)
     * [7.3. 回复列表](di-qi-7ae0-hui-fu-shu-ju/73-hui-fu-lie-biao.md)
     * [7.4. 消息通知列表](di-qi-7ae0-hui-fu-shu-ju/74-xiao-xi-tong-zhi-lie-biao.md)
-    * 7.5. 未读消息统计
+    * [7.5. 未读消息统计](di-qi-7ae0-hui-fu-shu-ju/75-wei-du-xiao-xi-tong-ji.md)
     * 7.6. 标记通知为已读
     * 7.7. 小结
   * [第八章. 权限控制](di-ba-7ae0-quan-xian-kong-zhi.md)
