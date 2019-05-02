@@ -71,7 +71,7 @@
     * [9.5. 小结](di-jiu-7ae0-qi-ta-gong-neng/95-xiao-jie.md)
   * [第十章. API 测试和文档](di-shi-7ae0-api-ce-shi-he-wen-dang.md)
     * [10.1. API 自动化测试介绍](di-shi-7ae0-api-ce-shi-he-wen-dang/101-api-zi-dong-hua-ce-shi-jie-shao.md)
-    * 10.2. Laravel API 集成测试
+    * [10.2. Laravel API 集成测试](di-shi-7ae0-api-ce-shi-he-wen-dang/102-laravel-api-ji-cheng-ce-shi.md)
     * 10.3. 第三方黑盒测试
     * 10.4. API 文档
     * 10.5. 小结
